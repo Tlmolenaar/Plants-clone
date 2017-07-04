@@ -5,10 +5,15 @@ using System.Collections;
 
 public class LevelManager : MonoBehaviour {
 	
-	public float autoLoadNextLevelAfter = 5;
+	public float autoLoadNextLevelAfter = 5f;
 	
 	void Start(){
-		Invoke ("LoadNextLevel", autoLoadNextLevelAfter);
+		if( autoLoadNextLevelAfter == 0f){
+			Debug.Log ("Not autoloading");
+		}
+		else{
+			Invoke ("LoadNextLevel", autoLoadNextLevelAfter);
+		}
 	}
 	
 	public void LoadLevel(string name){

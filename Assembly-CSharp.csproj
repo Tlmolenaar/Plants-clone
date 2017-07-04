@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\MusicManager.cs" />
      <Compile Include="Assets\Scripts\Music_Player.cs" />
      <Compile Include="Assets\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\panelFade.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/4.7/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
